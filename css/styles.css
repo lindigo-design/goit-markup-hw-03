@@ -38,8 +38,7 @@ a {
 .container{
     width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
-   
+    margin: 0 auto;; 
 }
     
 
@@ -47,15 +46,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 156px;
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
+    width: 100%;
 }
 
 .header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    padding: 0;
 }
 .header-nav {
     display: flex;
@@ -63,7 +63,7 @@ a {
 }
 
 .logo {
-    padding: 24px 0;
+    padding: 0;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -84,7 +84,6 @@ a {
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
-    padding: 24px 0
 
 }   
 .main-nav-list{
