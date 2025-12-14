@@ -39,7 +39,9 @@ a {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    border-bottom: 1px solid #e7e9fc;
 }
+    
 
 .header {
     display: flex;
@@ -53,7 +55,7 @@ a {
     align-items: center;
     width: 100%;
     padding: 0 156px;
-    border-bottom: 1px solid #e7e9fc;
+
 }
 .header-nav {
     display: flex;
