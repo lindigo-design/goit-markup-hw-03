@@ -37,8 +37,9 @@ a {
 }
 .container{
     width: 1158px;
+    margin: 0 auto; 
     padding: 0 15px;
-    margin: 0 auto;; 
+  
 }
     
 
@@ -47,7 +48,6 @@ a {
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
     width: 100%;
 }
 
@@ -55,7 +55,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: 0 15px;
 }
 .header-nav {
     display: flex;
@@ -63,7 +63,7 @@ a {
 }
 
 .logo {
-    padding: 0;
+    padding: 24px 0;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -87,6 +87,7 @@ a {
 
 }   
 .main-nav-list{
+    padding: 24px 0;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -109,7 +110,7 @@ address {
 }   
 .address-item{
     margin: 0;
-    padding: 0;
+     padding: 24px 0;
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
@@ -197,10 +198,11 @@ address {
 }
 .features-list {
     list-style: none;
+    width: calc(100% - 72px) / 4 ;
 
 }   
 .subtitle {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -225,7 +227,7 @@ address {
 } 
 .team-container {
     display: block;
-    max-width: 1440px;
+    padding: 32px 0;
 
 }
 
